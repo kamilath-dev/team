@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+      font-family: "Proxima Nova", system-ui, sans-serif;
+    }
+  }
+  
+/* Dans votre fichier CSS ou votre configuration Tailwind */
+.text-rotate {
+  writing-mode: vertical-lr; /* Cette propriété fait pivoter le texte à la verticale de gauche à droite */
+  transform: rotate(180deg); /* Cette propriété fait pivoter le texte à 180 degrés */
+}
+
+img{
+  margin-left: 1.5rem;
+}
